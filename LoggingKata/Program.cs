@@ -9,7 +9,7 @@ namespace LoggingKata
     {
         static readonly ILog logger = new TacoLogger();
         const string csvPath = "TacoBell-US-AL.csv";
-
+        //comment
         static void Main(string[] args)
         {
             logger.LogInfo("Log initialized");
